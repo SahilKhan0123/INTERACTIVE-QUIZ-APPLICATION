@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #9ba6a9, #213e47, #5f168a);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(126, 13, 201, 0.036);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+  margin-bottom: 40px;
+}
+
+#question {
+  font-size: 1.4rem;
+}
+
+#options {
+  margin: 20px 0;
+}
+
+button {
+  background-color: #00adb5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #007b80;
+}
+
+.option-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 15px;
+  width: 100%;
+  max-width: 400px;
+  background-color: #424344;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.option-btn:hover {
+  background-color: #00adb5;
+}
+
+#score {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
